@@ -1,0 +1,148 @@
+.login-signup {
+    display: block;
+    width: 780px;
+    height: 520px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-390px, -240px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.35);
+    background: #f2f6ff;
+    box-sizing: border-box;
+}
+
+.btn-close {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: -10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #e6d4d4;
+    background: black;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(27, 22, 22);
+        background: #ed1b24;
+    }
+}
+
+.content {
+    width: 100%;
+    float: left;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+}
+
+.content .content-left {
+    width: calc(100% - 280px);
+    background: #fff;
+    height: 520px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .content-left .title {
+    font-size: 30px;
+    margin: 20px 0 30px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.content .content-left .form .item-field {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.content .content-left .form .item-field span {
+    width: 100%;
+    font-size: 14px;
+    color: #010101;
+}
+
+.content .content-left .form .item-field input {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    border-bottom: solid 1px #d7d7d7;
+    outline: none !important;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content .content-left button {
+    margin-top: 10px;
+    width: 60%;
+    float: left;
+    text-align: center;
+    border: none;
+    line-height: 42px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background: #ed1b24;
+    cursor: pointer;
+}
+
+.content .content-left .already {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #010101;
+}
+
+.content .content-left .already span {
+    color: #ed1b24;
+    cursor: pointer;
+}
+
+.content .content-right {
+    width: 280px;
+    float: right;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .content-right img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.content .content-right .text {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text span {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #233b76;
+}
+
+.content .content-right .text .text-1 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}

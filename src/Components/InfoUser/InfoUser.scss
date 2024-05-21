@@ -1,0 +1,61 @@
+.info-user{
+    width: 100%;
+    padding: 20px;
+
+    .title-tk{
+        width: 100%;
+        float: left;
+        margin: 15px 20px 0;
+        padding-bottom: 15px;
+        font-size: 20px;
+        color: #000;
+        border-bottom: 1px solid #efefef;
+    }
+    .box-info{
+        width: 100%;
+        float: left;
+        padding: 20px;
+
+        .item-tk{
+            width: 100%;
+            float: left;
+            margin-bottom: 10px;
+            display: flex;
+
+            label{
+                color: rgba(85, 85, 85, .8);
+                width: 15%;
+                text-align: right;
+                font-size: 14px;
+                line-height: 2.5;
+                height: 40px;
+                margin-right: 20px;
+            }
+            .form{
+                width: calc(100% - 180px);
+                float: left;
+                position: relative;
+
+                input{
+                    border: solid 1px #e1e1e1;
+                    border-radius: 2px;
+                    padding: 0px 10px;
+                    width: 100%;
+                    height: 40px;
+                    font-family: "Open Sans", Arial, sans-serif;
+                }
+                span{
+                    width: 180px;
+                    float: left;
+                    text-align: center;
+                    border: none;
+                    line-height: 40px;
+                    border-radius: 2px;
+                    font-size: 14px;
+                    color: #fff;
+                    background: #ed1b24;
+                }
+            }
+        }
+    }
+}

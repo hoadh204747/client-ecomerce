@@ -1,0 +1,220 @@
+.wrapper {
+    display: flex;
+    background: #fff;
+    padding: 35px 0;
+
+    .order-container {
+        width: 1650px;
+        max-width: 100%;
+        padding: 0 10px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: space-around;
+
+        .order-content-left {
+            width: 60%;
+            float: left;
+
+            .address {
+                width: 100%;
+
+                .title {
+                    width: 100%;
+                    float: left;
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #000;
+                }
+
+                .box-address {
+                    width: 100%;
+                    float: left;
+                    padding: 32px;
+                    border: 1px solid #e1e1e1;
+                    border-radius: 6px;
+                    justify-content: center;
+                    margin-bottom: 30px;
+
+                    .item-acc {
+                        width: 100%;
+                        display: flex;
+                        margin-bottom: 10px;
+
+                        label {
+                            font-weight: 700;
+                            width: 180px;
+                            float: left;
+                            font-size: 14px;
+                            line-height: 1.5;
+                            display: flex;
+                            height: 40px;
+                            align-items: center;
+                        }
+
+                        input {
+                            width: calc(100% - 180px);
+                            border: 1px solid #e1e1e1;
+                            border-radius: 5px;
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .order-content-right {
+            width: calc(40% - 10px);
+            float: right;
+
+            .box-product {
+                width: 100%;
+                border-radius: 6px;
+                border: 1px solid #e1e1e1;
+
+                .header {
+                    width: 100%;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    span {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+
+                    a {
+                        float: left;
+                        padding: 0 15px;
+                        line-height: 30px;
+                        font-size: 14px;
+                        border-radius: 5px;
+                        border: 1px solid #e1e1e1;
+                        background: linear-gradient(180deg, #fff, #ebeceb);
+                    }
+                }
+
+                .product-list {
+                    padding: 0 10px;
+                    display: flex;
+                    // align-items: center;
+                    justify-content: space-between;
+
+                    .title {
+                        margin-top: 10px;
+                        width: 120px;
+                        color: #000;
+                        
+                    }
+
+                    .accordion-item {
+                        border: none;
+                        button {
+                            color: rgb(60, 40, 210);
+                        }
+                        .product{
+                            .item-n{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                span:nth-child(1){
+                                    width: 20px;
+                                    float: left;
+                                    font-size: 12px;
+                                    margin-right: 10px;
+                                }
+                                a{
+                                    width: calc(100% - 200px);
+                                    float: left;
+                                    font-size: 12px;
+                                    color: #333;
+                                    padding-right: 10px;
+                                    word-break: break-all;
+                                    text-decoration: none;
+                                    &:hover{
+                                        color: #ed1b24;
+                                    }
+                                }
+                                span:nth-child(2){
+                                    width: 85px;
+                                    float: right;
+                                    text-align: right;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .total-price {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    font-weight: 700;
+                    width: 100%;
+                    padding: 10px 10px 5px;
+                    border-top: solid 1px #e1e1e1;
+
+                    b {
+                        font-size: 16px;
+                        color: #ee2724;
+                        font-weight: 500;
+                    }
+                }
+
+                .vat {
+                    width: 100%;
+                    padding: 0 10px 10px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-style: italic;
+                    text-align: right;
+                }
+            }
+
+            .pay-method {
+                margin-top: 15px;
+                width: 100%;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: 700;
+                color: #000;
+            }
+
+            .box-cart-pay-method {
+                width: 100%;
+                margin-bottom: 20px;
+                border: 1px solid #e1e1e1;
+                padding: 10px;
+                border-radius: 6px;
+
+                .item-select {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px
+                }
+            }
+
+            .list-button {
+                width: 100%;
+
+                button {
+                    width: 100%;
+                    line-height: 44px;
+                    height: 44px;
+                    color: #fff;
+                    margin-top: 5px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    border: 0;
+                    border-radius: 3px;
+                    font-size: 15px;
+                    background-color: #ed1b24;
+                }
+            }
+        }
+    }
+}
